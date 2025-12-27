@@ -101,6 +101,6 @@ ws.onmessage = function(event) {
 
 ## 4. How to Run
 
-1. Install requirements: `pip install fastapi uvicorn`
-2. Run the server: `uvicorn main:app --reload`
+1. Install requirements: `pip install fastapi`
+2. Run the server: `fastapi dev websocket_01.py`
 3. Open `http://localhost:8000` in multiple browser tabs to test the real-time broadcast.
