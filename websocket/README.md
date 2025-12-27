@@ -5,7 +5,7 @@ This file demonstrates a  pattern for handling persistent, full-duplex communica
 ## 1. Technical Architecture & Lifecycle
 
 The following diagram illustrates the transition from a stateless HTTP request to a stateful WebSocket stream, managed by the `ConnectionManager`.
-![](websocket/01_connection_lifecycle.png)
+![](websocket/01_connection_lifecycle.pngwebsocket/01_connection_lifecycle.png)
 
 ### The 4 Phases of a WebSocket Lifecycle
 
