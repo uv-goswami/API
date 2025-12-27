@@ -5,7 +5,7 @@ This file demonstrates a  pattern for handling persistent, full-duplex communica
 ## 1. Technical Architecture & Lifecycle
 
 The following diagram illustrates the transition from a stateless HTTP request to a stateful WebSocket stream, managed by the `ConnectionManager`.
-![](websocket/01_connection_lifecycle.pngwebsocket/01_connection_lifecycle.png)
+![](https://github.com/uv-goswami/API/blob/13ec3222b04af1ec08ebf066f60fd572adf973a8/websocket/01_connection_lifecycle.png)
 
 ### The 4 Phases of a WebSocket Lifecycle
 
@@ -102,5 +102,5 @@ ws.onmessage = function(event) {
 ## 4. How to Run
 
 1. Install requirements: `pip install fastapi`
-2. Run the server: `fastapi dev websocket_01.py`
+2. Run the server: `fastapi dev websocket_01.py` (Change the File Names accordingly)
 3. Open `http://localhost:8000` in multiple browser tabs to test the real-time broadcast.
