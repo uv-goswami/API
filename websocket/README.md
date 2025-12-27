@@ -106,4 +106,5 @@ ws.onmessage = function(event) {
 3. Open `http://localhost:8000` in multiple browser tabs to test the real-time broadcast.
 
 ## 5. Demonstration
-
+![](https://github.com/uv-goswami/API/blob/eac6ac7ef786fe9f8dbded7e894d8db51079a121/websocket/browser_inteface.png)
+![](https://github.com/uv-goswami/API/blob/eac6ac7ef786fe9f8dbded7e894d8db51079a121/websocket/terminal_interface.png)
